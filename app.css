@@ -1,0 +1,177 @@
+body{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.container{
+    height:100vh;
+    width:100%;
+    /* display:flex; */
+    /* flex-direction: column; */
+    /* background-color: black; */
+}
+.title{
+    background-color: rgb(26, 149, 110);
+    color:white;
+    padding: 1px 0;
+    /* border: 1px solid black; */
+    width:100%;
+}
+.body{
+    display:flex;
+    height:90vh;
+    width:100%;   
+}
+.leftside{
+    background-color: rgb(241, 237, 237);
+    width:45%;
+    /* height:auto; */
+    border: 1px solid black;
+    overflow: scroll;
+}
+.rightside{
+    width:55%;
+    padding:20px 30px;
+    /* background-color: aqua; */
+}
+.search{
+    padding:20px 0px 20px 8px;
+    /* display:flex; */
+    /* justify-content: center; */
+    background-color: #fff;
+    border: 1px solid black;
+    border-right:none;
+    border-top: none;
+}
+.searchContent{
+    display:flex;
+    gap:10px;
+}
+.blue{
+    background-color: rgb(24, 24, 225);
+    color:white;
+    cursor: pointer;
+    padding:8px;
+}
+.rightside{
+    padding-top:20px;
+}
+.none{
+    display: none;
+}
+.rigthTitle{
+    line-height: 13px;
+}
+.rigthInput{
+    width:180px;
+    padding:8px;
+    display:inline;
+}
+.rigthTextArea{
+    height:80px;
+    width:500px;
+    padding:8px;
+}
+.form{
+   display:flex;
+   flex-direction: column;
+   margin-top: 20px;
+}
+.rigthButton{
+    
+    height:30px;
+     width:100px;
+}
+.submit{
+    margin-top: 3px;;
+    display:flex;
+    margin-left: 420px;
+}
+ .margin{
+    padding-left: 10px;
+    /* margin: 18px; */
+    border: 1px solid black;
+    box-shadow: -1px 1px 1px rgba(0,0,0,.2);
+ }
+
+/* question part end */
+
+/* new div************************* */
+.new-div {
+    display: none;
+    color: rgb(14, 14, 14);
+    /* border: 1px solid black; */
+    margin-top: 1px;;
+}
+
+.dblock{
+    display:block;
+}
+
+.newText{
+    height:80px;
+    width:500px;
+    padding:10px;
+    border: none;
+    background-color: rgb(241, 237, 237);
+    margin-top:0px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+.new-div h1{
+    color: rgb(132, 130, 130);
+    margin-bottom: 3px;
+    margin-top: 0px;
+}
+.newbtn{
+    width:500px;
+    display:flex;
+    justify-content: right;
+    margin-top: 4px;
+}
+.newbtn button{
+    height:30px;
+    width:100px;
+}
+.color{
+    color: rgb(132, 130, 130);
+}
+.newInput{
+    width:180px;
+    padding:8px;
+    margin-bottom: 8px;
+}
+.newTextArea{
+    height:80px;
+    width:500px;
+    padding:8px; 
+}
+.submit2{
+    display: flex;
+    padding-left: 420px;
+}
+.newButton{
+    height:30px;
+    width:100px;
+}
+
+/* new div************************* */
+
+
+/* *********** resonse form ************** */
+.responseStyle{
+    height:auto;
+    width:500px;
+    padding-left:8px;
+    padding-top: 3PX; 
+    background-color:rgb(241, 237, 237);
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.response{
+overflow: scroll;
+max-height: 110px;
+}
+.rightside h2{
+    margin-top: 0px;;
+}

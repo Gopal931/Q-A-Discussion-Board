@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discussion _App</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h2>Discussion Portal</h2>
+      </div>
+      <!--Title end-->
+      <div class="body">
+        <div class="leftside">
+          <div class="search">
+            <div class="searchContent">
+              <!-- <input type="text" placeholder="New Question Form" class="blue"> -->
+              <button class="blue">New Question Form</button>
+              <input type="text" placeholder="Search..." />
+            </div>
+            <!--searchContent end-->
+          </div>
+          <!--search end-->
+          <div class="question"></div>
+          <!--question end -->
+        </div>
+        <!--leftside end-->
+        <div class="rightside">
+          <div class="new-div">
+            <h1 class="color">Question</h1>
+            <div name="text" class="newText"></div>
+            <div class="newbtn">
+              <button class="blue">Resolve</button>
+            </div>
+            <h2 class="color">Response</h2>
+            <div class="response"></div>
+            <div class="AddTask">
+              <h2 class="color">Add Response</h2>
+              <div class="form2">
+                <input
+                  type="text"
+                  placeholder="Enter your name"
+                  class="newInput"
+                /><br />
+                <!-- &nbsp; -->
+                <textarea
+                  name="text2"
+                  id="text2"
+                  placeholder="Comment"
+                  class="newTextArea"
+                ></textarea>
+                <div class="submit2">
+                  <button class="newButton blue">Submit</button>
+                </div>
+                <!--submit end-->
+              </div>
+              <!--Form2 end-->
+            </div>
+            <!--ADDTask-->
+          </div>
+          <!--newDiv end-->
+          <div class="rigthContentBox">
+            <div class="rigthTitle">
+              <h1>Welcome to Discussion Portal</h1>
+              <p><b>Enter a Subject and Question to start</b></p>
+            </div>
+            <!--rigthTitle end-->
+            <div class="form">
+              <input
+                type="text"
+                placeholder="subject"
+                class="rigthInput"
+              /><br />
+              <!-- &nbsp; -->
+              <textarea
+                name="text"
+                id="text"
+                placeholder="Question"
+                class="rigthTextArea"
+              ></textarea>
+              <div class="submit">
+                <button class="rigthButton blue">Submit</button>
+              </div>
+              <!--submit end-->
+            </div>
+            <!--Form end-->
+          </div>
+          <!--rigthContentBox end-->
+        </div>
+        <!--rigthside end-->
+      </div>
+      <!--Body end-->
+    </div>
+    <!--container end-->
+
+    <script src="app.js"></script>
+  </body>
+</html>
